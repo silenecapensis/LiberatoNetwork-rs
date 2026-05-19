@@ -1,0 +1,12 @@
+[package]
+name = "liberato-digital-asset-standard"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serde = {version = "1.0.0", features=["derive"]}
+fixedstr = {version="0.5.10", features=["serde"]}
+bincode = {version="2.0.1", features=["derive"]}
+blake2-rfc = "0.2.18"
+slugencode = {version="0.1.0"}
+serde-big-array = {version="0.5.1"}

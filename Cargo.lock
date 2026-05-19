@@ -3015,6 +3015,18 @@ dependencies = [
 ]
 
 [[package]]
+name = "liberato-digital-asset-standard"
+version = "0.1.0"
+dependencies = [
+ "bincode 2.0.1",
+ "blake2-rfc",
+ "fixedstr",
+ "serde",
+ "serde-big-array",
+ "slugencode",
+]
+
+[[package]]
 name = "liberato-network"
 version = "0.1.0"
 dependencies = [
