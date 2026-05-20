@@ -11,3 +11,17 @@ pub struct DigitalAssetPiece {
     #[serde(with = "BigArray")]
     pub piece_data: [u8; 262_144],
 }
+
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, PartialOrd, Hash)]
+pub struct DigitalAssetPiece16kb {
+    /// 16kb
+    #[serde(with = "BigArray")]
+    pub piece_data: [u8; 16_384],
+}
+
+#[derive(Debug, Clone, Serialize, Deserialize, PartialEq, PartialOrd, Hash)]
+pub struct DigitalAssetPiece4kb {
+    /// 4kb
+    #[serde(with = "BigArray")]
+    pub piece_data: [u8; 4_096],
+}

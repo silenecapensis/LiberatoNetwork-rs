@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["digital-asset-standard-liberato","liberato-address-scheme", "liberato-protocols-core", "muscarine-auth", "muscarine-bootstrap", "muscarine-fileio", "muscarine-types", "muscarine-vrf-chain", "openaddress-scheme-rs","liberato-network", "shrine-raft", "shrine-ui", "crates/liberato-digital-asset-standard"]
+members = ["digital-asset-standard-liberato","liberato-address-scheme", "liberato-protocols-core", "muscarine-auth", "muscarine-bootstrap", "muscarine-fileio", "muscarine-types", "muscarine-vrf-chain", "openaddress-scheme-rs","liberato-network", "shrine-raft", "shrine-ui", "crates/liberato-digital-asset-standard", "crates/liberato-primitives", "crates/liberato-executable"]
 
 [package]
 name = "libshrindo"

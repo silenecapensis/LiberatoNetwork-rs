@@ -3027,6 +3027,10 @@ dependencies = [
 ]
 
 [[package]]
+name = "liberato-executable"
+version = "0.1.0"
+
+[[package]]
 name = "liberato-network"
 version = "0.1.0"
 dependencies = [
@@ -3060,6 +3064,13 @@ dependencies = [
  "url",
  "uuid",
  "zeroize",
+]
+
+[[package]]
+name = "liberato-primitives"
+version = "0.1.0"
+dependencies = [
+ "liberato-address-scheme 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
